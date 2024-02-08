@@ -1,5 +1,5 @@
 import axios from 'axios'
-const URL=process.env.REACT_APP_URI
+const URL='http://localhost:8000'
 const getProducts=()=>async(dispatch)=>{
     try{
          let {data}= await axios.get(`${URL}/products`)

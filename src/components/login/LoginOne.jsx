@@ -23,7 +23,7 @@ justify-content:center;
 `
 function LoginOne({islog,setClose}) {
   const[pass,setPass]=useState(false)
-  const {acc,setAcc}=useContext(appState)
+  const {setAcc}=useContext(appState)
   const[valid,setValid]=useState(true)
   const[logValid,setLogValid]=useState(false)
   const[signValid,setSignValid]=useState(false)

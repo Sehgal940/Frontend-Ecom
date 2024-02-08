@@ -1,5 +1,5 @@
 import React from 'react'
-import {Grid,styled} from '@mui/material'
+import {Grid} from '@mui/material'
 import {imageURL} from '../../consts/midBanner'
 function MidBanner() {
   return (
