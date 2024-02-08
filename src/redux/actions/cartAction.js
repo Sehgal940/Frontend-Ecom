@@ -1,5 +1,5 @@
 import axios from 'axios'
-const URL=process.env.REACT_APP_URL
+const URL=process.env.REACT_APP_URI
 const addToCart=(id,quantity)=>async(dispatch)=>{
     try{
         let {data}= await axios.get(`${URL}/products/${id}`)
